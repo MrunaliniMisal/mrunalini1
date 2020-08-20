@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head><title>Survey Form</title>
+<link rel="stylesheet" href="newproject2.css">
+</head>
+<body align="center">
+<h1>Survey Form For Books<h1>
+<h2><i>Thanks For Telling Us Your Choices</i></h2><br>
+<form class="form">
+<lable for="name">Name</label><br/>
+<input type="text" name="name" placeholder="enter your name" required><br/>
+<br/>
+<lable for="email">Email-Id</label><br>
+<input type="text" name="email" placeholder="enter your email" size="30" required><br>
+<br/>
+<lable for="age">Age</label><br/>
+<input type="number" name="age" placeholder="enter your age" min="0" max="70" size="30" required><br>
+<br/>
+<lable>Which Type Of Books You Will Like To Read?</label><br/>
+<input type="text" list="category">
+<datalist id="category">
+<option value="Historic">Historic</option>
+<option value="Cultural">Cultural</option>
+<option value="Biographies">Biographies</option>
+<option value="Historic">Historic</option>
+<option value="Literary">Literary</option>
+<option value="Poetic">Poetic</option>
+</datalist><br/>
+<br/>
+<lable for="renew">What About Your Membership?</label><br/>
+<input type="radio" name="renew">Keep The Same<br/>
+<input type="radio" name="renew">Extend It<br>
+<input type="radio" name="renew">Do Not Continue<br/>
+<br/>
+<lable for="price">What Range Of Books You Want?</label>
+<input type="checkbox" name="price">Between 100-500<br/>
+<input type="checkbox" name="renew">Between 500-2000<br/>
+<input type="checkbox" name="renew">Above 2000<br/>
+<br/>
+<lable for="mode">What Mode Of Reading Do You Want?</label><br/>
+<input type="text" list="mode">
+<datalist id="mode">
+<option value="Online">Online</option>
+<option value="Offline">Offline</option>
+</datalist><br/>
+<br/>
+<label for="service">Which Type Of Service You Want?</label><br/>
+<input type="radio" name="service">Home Delivery<br/>
+<input type="radio" name="service">In Library<br/>
+<br/>
+<lable>Any Other Suggestion Do You Want Give US?</label><br/>
+<textarea id="text">Write Here</textarea><br/>
+<br/>
+<input type="submit" id="submit">
+</form>
+</body>
+</html>
